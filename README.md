@@ -18,13 +18,13 @@ After using various sampling methods, we then employed two machine learning mode
 ## Results 
 
 ### Naive Random Oversampling 
-![naive](resources/naive.jpg)
+![naive](/resources/naive.jpg)
 1. Balanced Accuracy: .65
 2. Precision: High for Low Risk, Low for High Risk 
 3. Recall (High/Low): .69/.62  
 
 ### SMOTE
-![naive](resources/smote.jpg)
+![naive](/resources/smote.jpg)
 1. Balanced Accuracy: .66
 2. Precision: High for Low Risk, Low for High Risk 
 3. Recall (High/Low): .63/.69
@@ -36,19 +36,19 @@ After using various sampling methods, we then employed two machine learning mode
 3. Recall (High/Low): .40/.69
 
 ### SMOTEENN
-![naive](resources/smoteenn.jpg)
+![naive](/resources/smoteenn.jpg)
 1. Balanced Accuracy: .65
 2. Precision: High for Low Risk, Low for High Risk 
 3. Recall (High/Low): 
 
 ### BalancedRandomForestClassifier
-![naive](resources/balanced_rf.jpg)
+![naive](/resources/balanced_rf.jpg)
 1. Balanced Accuracy: .79
 2. Precision: High for Low Risk, Low for High Risk 
 3. Recall (High/Low): .70/.87
 
 ### EasyEnsembleClassifier
-![naive](resources/ee.jpg)
+![naive](/resources/ee.jpg)
 
 1. Balanced Accuracy: .93
 2. Precision:2. Precision: High for Low Risk, Low for High Risk 
